@@ -1,4 +1,20 @@
-# CareerProof AI
+# AWS AI and ML Scholars: Hands-on Projects
+
+My two final hands-on projects from the AWS AI Practitioner Challenge (AWS AI and
+ML Scholars program), both built on AWS PartyRock, an app and analysis layer on
+top of Amazon Bedrock.
+
+- **Project 1: CareerProof AI** (detailed below): a generative-AI productivity
+  app that turns messy experience into recruiter-ready resume bullets, STAR
+  answers, a LaTeX resume, and a Jobright-style fit score, with a credibility
+  check. Built with a 7-step prompt chain.
+- **Project 2: Air Quality Data Analysis**: using PartyRock's Analyze Data
+  feature to query a 30-day dataset, generate an analysis table, and critically
+  evaluate the AI's output. See [`project-2-analyze-data/`](project-2-analyze-data/).
+
+---
+
+## Project 1: CareerProof AI
 
 **An AI career-prep assistant built on AWS PartyRock (Amazon Bedrock).** It turns messy, unstructured work and project experience into recruiter-ready career materials through a multi-step prompt chain, then audits its own output for credibility and tells you exactly what to do next.
 
