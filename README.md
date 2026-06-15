@@ -117,6 +117,27 @@ Amazon Bedrock, AWS PartyRock, foundation models, prompt engineering, prompt cha
 
 ---
 
+## Project 2: Air Quality Data Analysis
+
+Using PartyRock's Analyze Data feature (Amazon Bedrock) to query a 30-day air
+quality dataset, generate an analysis table, and critically evaluate the AI's
+output. Full writeup and files: [`project-2-analyze-data/`](project-2-analyze-data/).
+
+**What it covers**
+- Uploaded a 30-day dataset (180 records, six pollutants plus AQI) and asked 3
+  natural-language questions. PartyRock writes and runs SQL behind the scenes,
+  then summarizes the result.
+- Found a clear daily cycle: AQI is best at night (about 32) and worst at midday
+  (about 60) from peak ozone, with PM2.5 and NO2 spiking at the morning and
+  evening rush.
+- Generated and exported an analysis table of average pollutant levels and AQI by
+  time of day.
+- Critically evaluated the AI: the time-of-day analysis was accurate and the tool
+  showed the exact SQL it ran, but the weekday-versus-weekend comparison
+  miscounted weekend days (4 in a 30-day span), so that insight was unreliable.
+  The takeaway is that the tool is strong for SQL-expressible aggregations but
+  still needs a sanity check on groupings and row counts.
+
 ## License
 
 All Rights Reserved. See [LICENSE](LICENSE). This is a proprietary showcase: the code, prompts, and text may not be copied, modified, or reused without written permission. Copyright protects this specific implementation; it does not stop independent ideas, which is why the repo is a public portfolio piece rather than an open-source template.
