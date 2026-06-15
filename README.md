@@ -20,6 +20,8 @@ top of Amazon Bedrock.
 
 **Live app (public):** https://partyrock.aws/u/Minifigures/gBGjeULT_/CareerProof-AI%253A-Transform-Experience-Into-Results
 
+**Now productionized as a full web app:** https://careerproof-ai.vercel.app (Next.js + Supabase + pgvector RAG + Google sign-in; code at https://github.com/Minifigures/careerproof-ai). The roadmap below has shipped.
+
 Built for the AWS AI and ML Scholars program (Project: Build Your First AI Productivity App).
 
 > Author: Marco Anthony Ayuste
