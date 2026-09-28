@@ -2,6 +2,8 @@
 
 A real end-to-end run, to show what the chained outputs produce.
 
+> **Check every figure against the raw input.** The app's outputs can contain figures and details the model made up. In this run, everything marked **[not in input]** below appears nowhere in the raw experience the user typed: the 40-minute and 5-minute timings, the 87% reduction, tournament bracket generation, and the job title, date and location in the LaTeX heading. Treat any output as a draft and remove or correct every claim you cannot back up before it goes on a resume.
+
 **Inputs**
 
 - **Target Role:** Frontend / Full-Stack Developer Intern. React, Next.js, TypeScript, building user-facing web apps and dashboards used by real users. Bonus: shipping real products end-to-end and owning features.
@@ -25,9 +27,9 @@ The same experience scored 52 against a fintech backend role (Python and AWS gap
 
 ## Resume Bullet Generator
 
-> Architected and shipped a full-stack club management platform in Next.js, React, and TypeScript as sole developer, serving 320 users with live ELO rankings, tournament bracket generation, and an AI-powered match entry system.
+> Architected and shipped a full-stack club management platform in Next.js, React, and TypeScript as sole developer, serving 320 users with live ELO rankings, tournament bracket generation **[not in input]**, and an AI-powered match entry system.
 
-> Engineered a Vision AI pipeline that parses photos of handwritten match sheets and extracts player names and results, cutting per-session data entry from roughly 40 minutes to under 5 minutes.
+> Engineered a Vision AI pipeline that parses photos of handwritten match sheets and extracts player names and results, cutting per-session data entry from roughly 40 minutes to under 5 minutes **[not in input]**.
 
 ## Credibility Checker (excerpt)
 
@@ -42,11 +44,11 @@ The same experience scored 52 against a fintech backend role (Python and AWS gap
 \section{Experience}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Frontend / Full-Stack Developer Intern}{Present}
-    {Club Management Platform Project}{Remote}
+    {Frontend / Full-Stack Developer Intern}{Present} % [not in input: this is the target role, not a job held; no date given]
+    {Club Management Platform Project}{Remote} % [not in input: location]
     \resumeItemListStart
-      \resumeItem{Architected and shipped a full-stack club management platform in Next.js, React, and TypeScript as sole developer, serving 320 users with live ELO rankings, tournament bracket generation, and an AI-powered match entry system.}
-      \resumeItem{Engineered an automated match entry feature using a Vision AI API to parse photos of handwritten score sheets, reducing per-session data entry from 40 minutes to under 5 minutes, an 87\% reduction.}
+      \resumeItem{Architected and shipped a full-stack club management platform in Next.js, React, and TypeScript as sole developer, serving 320 users with live ELO rankings, tournament bracket generation, and an AI-powered match entry system.} % [not in input: tournament bracket generation]
+      \resumeItem{Engineered an automated match entry feature using a Vision AI API to parse photos of handwritten score sheets, reducing per-session data entry from 40 minutes to under 5 minutes, an 87\% reduction.} % [not in input: 40 minutes, 5 minutes, 87%]
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 ```
