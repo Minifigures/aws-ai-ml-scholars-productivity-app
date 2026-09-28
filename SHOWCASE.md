@@ -2,7 +2,7 @@
 
 A real end-to-end run, to show what the chained outputs produce.
 
-> **Check every figure against the raw input.** The app's outputs can contain figures and details the model made up. In this run, everything marked **[not in input]** below appears nowhere in the raw experience the user typed: the 40-minute and 5-minute timings, the 87% reduction, tournament bracket generation, and the job title, date and location in the LaTeX heading. Treat any output as a draft and remove or correct every claim you cannot back up before it goes on a resume.
+> **Check every figure against the raw input.** The app's outputs can contain figures and details the model made up. In this run, everything marked **[not in input]** below appears in none of the inputs: the 40-minute and 5-minute timings, the 87% reduction, tournament bracket generation, and the date and location in the LaTeX heading. The heading's job title is the target role, not a job the user held, so it is marked **[not in raw experience]**. Treat any output as a draft and remove or correct every claim you cannot back up before it goes on a resume.
 
 **Inputs**
 
@@ -44,7 +44,7 @@ The same experience scored 52 against a fintech backend role (Python and AWS gap
 \section{Experience}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Frontend / Full-Stack Developer Intern}{Present} % [not in input: this is the target role, not a job held; no date given]
+    {Frontend / Full-Stack Developer Intern}{Present} % [not in raw experience: this is the target role, not a job held] [not in input: date]
     {Club Management Platform Project}{Remote} % [not in input: location]
     \resumeItemListStart
       \resumeItem{Architected and shipped a full-stack club management platform in Next.js, React, and TypeScript as sole developer, serving 320 users with live ELO rankings, tournament bracket generation, and an AI-powered match entry system.} % [not in input: tournament bracket generation]
